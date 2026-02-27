@@ -43,11 +43,11 @@ export class DualScreenService {
         }
       } else {
         this.lastStatus =
-          'Browser does not support multi-screen placement. Opening in a new window; you may need to move it.';
+          'Multi-screen placement not supported; opened in a new window.';
       }
     } catch {
       this.lastStatus =
-        'Unable to use multi-screen placement. Opening in a new window; you may need to move it.';
+        'Multi-screen placement not supported; opened in a new window.';
     }
 
     let features = 'noopener,noreferrer';
@@ -78,7 +78,7 @@ export class DualScreenService {
 
     if (!newWindow) {
       this.lastStatus =
-        'Popup blocked. Allow popups for this site to open the customer display.';
+        'Popup blocked. Allow popups for localhost to auto-open customer display.';
       return;
     }
 
