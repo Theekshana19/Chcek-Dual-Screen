@@ -1,0 +1,65 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.screen {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+}
+
+.staff {
+  background: #1e3a8a;
+  color: white;
+}
+
+.customer {
+  background: #065f46;
+  color: white;
+}
+
+a {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.primary-button {
+  margin-top: 20px;
+  padding: 12px 28px;
+  font-size: 18px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background: #facc15;
+  color: #1f2937;
+}
+
+.primary-button:hover {
+  background: #eab308;
+}
+
+.status {
+  margin-top: 16px;
+  max-width: 520px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.customer h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.customer-text {
+  font-size: 32px;
+}
+
